@@ -3,12 +3,18 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-public class TestMyIde : MonoBehaviour
+public class TestMyIdeErrors : MonoBehaviour
 {
-    string Tag = "TestMyIde";
-    int a = 1;
+    string Tag = "TestMyIdeErrors";
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
+    int a = 1
     int b = 2;
-    float d = 5;
+    flaot d = 5;
 
     TextMeshProUGUI TextPro;
 
@@ -16,7 +22,7 @@ public class TestMyIde : MonoBehaviour
     void Start()
     {
         int c = a + b;
-        Debug.Log("a + b = " + 3);
+        Debug.Log("a + b = " 3);
         Debug.Log(Tag + "- Done ;)");
     }
 
@@ -25,4 +31,3 @@ public class TestMyIde : MonoBehaviour
     {
 
     }
-}
